@@ -9,7 +9,7 @@ class ContestParticipant extends Model
 {
     use HasFactory;
 
-    protected $table = "contes-participant";
+    protected $table = "contest-participant";
 
     protected $fillable = [
         "name",
